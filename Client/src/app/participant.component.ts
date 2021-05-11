@@ -20,9 +20,11 @@ export class ParticipantComponent {
     });
   }
   reserveConvention(id) {
-    let reserve = true;
-
-    this.service.allocateConvention(id, reserve).subscribe(() => {});
+    this.service.allocateConvention(id, true).subscribe(() => {});
   }
-  participateConvention() {}
+  participateConvention(id) {
+    let reserve = false;
+
+    this.service.allocateConvention(id, false).subscribe(() => {});
+  }
 }

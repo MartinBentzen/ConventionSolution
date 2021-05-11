@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Net.Http;
 using System.Text;
 using System.Text.Json;
@@ -41,36 +42,8 @@ namespace Repositories
                 }
                 list.Add(Convention.Create(entity.Id, entity.Name, entity.Topic, entity.MaxCap, 1, speaker));
             }
-            //var query = await (from bb in _dbContext.Conventions
-            //                   join cc in _dbContext.ConventionParticipants
-            //                       on bb.Id equals cc.ConventionId where  cc.ParticipantId == 
 
-            //var query = await (from bb in _dbContext.Conventions
-            //    join cc in _dbContext.ConventionParticipants
-            //        on bb.Id equals cc.ConventionId
-            //    group new { bb, cc } by new { bb.Name, bb.MaxCap, bb.Id, bb.Topic, SpeakerId = bb.Speaker.Id } into newgroup
-            //    select new
-            //    {
-            //        Id = newgroup.Key.Id,
-            //        Speaker = newgroup.Key.SpeakerId,
-            //        Name = newgroup.Key.Name,
-            //        Topic = newgroup.Key.Topic,
-            //        MaxCap = newgroup.Key.MaxCap,
-
-                               //        Count = newgroup.Count()
-                               //    }).ToListAsync();
-                               //var conventions = new List<Convention>();
-                               //foreach (var entity in query)
-                               //{
-                               //    Speaker speaker = null;
-                               //    if (entity.SpeakerId != null)
-                               //    {
-                               //        speaker = Speaker.Create(entity.Speaker.Id, entity.Speaker.Name, entity.Speaker.Email);
-                               //    }
-                               //    var item = Convention.Create(entity.Id, entity.Name, entity.Topic, entity.MaxCap, entity.Count, speaker);
-                               //    conventions.Add(item);
-                               //}
-
+          
             return list;
             
         }

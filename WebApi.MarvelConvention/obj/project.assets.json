@@ -8583,11 +8583,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mnbn\\source\\repos\\MarvelConvention\\WebApi.MarvelConvention\\WebApi.MarvelConvention.csproj",
+      "projectUniqueName": "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\WebApi.MarvelConvention\\WebApi.MarvelConvention.csproj",
       "projectName": "WebApi.MarvelConvention",
-      "projectPath": "C:\\Users\\mnbn\\source\\repos\\MarvelConvention\\WebApi.MarvelConvention\\WebApi.MarvelConvention.csproj",
+      "projectPath": "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\WebApi.MarvelConvention\\WebApi.MarvelConvention.csproj",
       "packagesPath": "C:\\Users\\mnbn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mnbn\\source\\repos\\MarvelConvention\\WebApi.MarvelConvention\\obj\\",
+      "outputPath": "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\WebApi.MarvelConvention\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -8611,14 +8611,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\mnbn\\source\\repos\\MarvelConvention\\ApplicationService.Interfaces\\ApplicationService.Interfaces.csproj": {
-              "projectPath": "C:\\Users\\mnbn\\source\\repos\\MarvelConvention\\ApplicationService.Interfaces\\ApplicationService.Interfaces.csproj"
+            "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\ApplicationService.Interfaces\\ApplicationService.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\ApplicationService.Interfaces\\ApplicationService.Interfaces.csproj"
             },
-            "C:\\Users\\mnbn\\source\\repos\\MarvelConvention\\ApplicationService\\ApplicationService.csproj": {
-              "projectPath": "C:\\Users\\mnbn\\source\\repos\\MarvelConvention\\ApplicationService\\ApplicationService.csproj"
+            "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\ApplicationService\\ApplicationService.csproj": {
+              "projectPath": "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\ApplicationService\\ApplicationService.csproj"
             },
-            "C:\\Users\\mnbn\\source\\repos\\MarvelConvention\\Repositories\\Repositories.csproj": {
-              "projectPath": "C:\\Users\\mnbn\\source\\repos\\MarvelConvention\\Repositories\\Repositories.csproj"
+            "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\Repositories\\Repositories.csproj": {
+              "projectPath": "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\Repositories\\Repositories.csproj"
             }
           }
         }
