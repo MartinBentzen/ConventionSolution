@@ -1,0 +1,352 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\ApplicationService.Unittest\\ApplicationService.Unittest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\ApplicationService.Interfaces\\ApplicationService.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\ApplicationService.Interfaces\\ApplicationService.Interfaces.csproj",
+        "projectName": "ApplicationService.Interfaces",
+        "projectPath": "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\ApplicationService.Interfaces\\ApplicationService.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\mnbn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\ApplicationService.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mnbn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\notification": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/LBSTCustomerAPP/CustomerAPP/_packaging/COWIControlsLibrary/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/LBSTCustomerAPP/CustomerAPP/_packaging/CommonsFeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\Domain.Model\\Domain.Model.csproj": {
+                "projectPath": "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\Domain.Model\\Domain.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\ApplicationService.Unittest\\ApplicationService.Unittest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\ApplicationService.Unittest\\ApplicationService.Unittest.csproj",
+        "projectName": "ApplicationService.Unittest",
+        "projectPath": "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\ApplicationService.Unittest\\ApplicationService.Unittest.csproj",
+        "packagesPath": "C:\\Users\\mnbn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\ApplicationService.Unittest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mnbn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\notification": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/LBSTCustomerAPP/CustomerAPP/_packaging/COWIControlsLibrary/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/LBSTCustomerAPP/CustomerAPP/_packaging/CommonsFeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\ApplicationService\\ApplicationService.csproj": {
+                "projectPath": "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\ApplicationService\\ApplicationService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\ApplicationService\\ApplicationService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\ApplicationService\\ApplicationService.csproj",
+        "projectName": "ApplicationService",
+        "projectPath": "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\ApplicationService\\ApplicationService.csproj",
+        "packagesPath": "C:\\Users\\mnbn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\ApplicationService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mnbn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\notification": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/LBSTCustomerAPP/CustomerAPP/_packaging/COWIControlsLibrary/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/LBSTCustomerAPP/CustomerAPP/_packaging/CommonsFeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\ApplicationService.Interfaces\\ApplicationService.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\ApplicationService.Interfaces\\ApplicationService.Interfaces.csproj"
+              },
+              "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\Domain.Model\\Domain.Model.csproj": {
+                "projectPath": "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\Domain.Model\\Domain.Model.csproj"
+              },
+              "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\Domain.Repository.Interfaces\\Domain.Repository.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\Domain.Repository.Interfaces\\Domain.Repository.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\Domain.Model\\Domain.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\Domain.Model\\Domain.Model.csproj",
+        "projectName": "Domain.Model",
+        "projectPath": "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\Domain.Model\\Domain.Model.csproj",
+        "packagesPath": "C:\\Users\\mnbn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\Domain.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mnbn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\notification": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/LBSTCustomerAPP/CustomerAPP/_packaging/COWIControlsLibrary/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/LBSTCustomerAPP/CustomerAPP/_packaging/CommonsFeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\Domain.Repository.Interfaces\\Domain.Repository.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\Domain.Repository.Interfaces\\Domain.Repository.Interfaces.csproj",
+        "projectName": "Domain.Repository.Interfaces",
+        "projectPath": "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\Domain.Repository.Interfaces\\Domain.Repository.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\mnbn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\Domain.Repository.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mnbn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\notification": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/LBSTCustomerAPP/CustomerAPP/_packaging/COWIControlsLibrary/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/LBSTCustomerAPP/CustomerAPP/_packaging/CommonsFeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\Domain.Model\\Domain.Model.csproj": {
+                "projectPath": "C:\\Users\\mnbn\\source\\repos\\MavelConvention-git\\Domain.Model\\Domain.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

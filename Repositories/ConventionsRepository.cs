@@ -42,8 +42,6 @@ namespace Repositories
                 }
                 list.Add(Convention.Create(entity.Id, entity.Name, entity.Topic, entity.MaxCap, 1, speaker));
             }
-
-          
             return list;
             
         }
