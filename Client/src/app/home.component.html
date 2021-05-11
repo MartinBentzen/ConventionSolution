@@ -1,0 +1,8 @@
+<div *ngIf="!authUser.isLoggedIn">
+  <p>Du er ikke logget ind! Klik <a routerLink="./login">her</a> for at logge ind</p>
+</div>
+
+<div *ngIf="authUser.isLoggedIn">
+  <h1>Velkommen {{authUser.email}}</h1>
+  <p>Du er logget ind med rollen {{authUser.role}}</p>
+</div>

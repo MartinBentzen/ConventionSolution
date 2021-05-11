@@ -1,0 +1,15 @@
+C:\Users\mnbn\source\repos\MarvelConvention\Repositories\bin\Debug\netcoreapp3.1\Repositories.deps.json
+C:\Users\mnbn\source\repos\MarvelConvention\Repositories\bin\Debug\netcoreapp3.1\Repositories.dll
+C:\Users\mnbn\source\repos\MarvelConvention\Repositories\obj\Debug\netcoreapp3.1\Repositories.AssemblyInfoInputs.cache
+C:\Users\mnbn\source\repos\MarvelConvention\Repositories\obj\Debug\netcoreapp3.1\Repositories.AssemblyInfo.cs
+C:\Users\mnbn\source\repos\MarvelConvention\Repositories\bin\Debug\netcoreapp3.1\Repositories.runtimeconfig.json
+C:\Users\mnbn\source\repos\MarvelConvention\Repositories\bin\Debug\netcoreapp3.1\Repositories.runtimeconfig.dev.json
+C:\Users\mnbn\source\repos\MarvelConvention\Repositories\bin\Debug\netcoreapp3.1\Repositories.pdb
+C:\Users\mnbn\source\repos\MarvelConvention\Repositories\obj\Debug\netcoreapp3.1\Repositories.dll
+C:\Users\mnbn\source\repos\MarvelConvention\Repositories\obj\Debug\netcoreapp3.1\Repositories.pdb
+C:\Users\mnbn\source\repos\MarvelConvention\Repositories\obj\Debug\netcoreapp3.1\Repositories.csprojAssemblyReference.cache
+C:\Users\mnbn\source\repos\MarvelConvention\Repositories\bin\Debug\netcoreapp3.1\Domain.Model.dll
+C:\Users\mnbn\source\repos\MarvelConvention\Repositories\bin\Debug\netcoreapp3.1\Domain.Repository.Interfaces.dll
+C:\Users\mnbn\source\repos\MarvelConvention\Repositories\bin\Debug\netcoreapp3.1\Domain.Repository.Interfaces.pdb
+C:\Users\mnbn\source\repos\MarvelConvention\Repositories\bin\Debug\netcoreapp3.1\Domain.Model.pdb
+C:\Users\mnbn\source\repos\MarvelConvention\Repositories\obj\Debug\netcoreapp3.1\Repositories.csproj.CopyComplete

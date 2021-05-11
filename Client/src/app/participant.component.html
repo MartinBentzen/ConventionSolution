@@ -1,0 +1,26 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Topic</th>
+      <th scope="col">Full</th>
+      <th scope="col">Have speaker</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let convention of conventions">
+
+      <td>{{convention.name}}</td>
+      <td>{{convention.topic}}</td>
+
+      <td>{{convention.isFull}}</td>
+      <td>{{convention.hasSpeaker}}</td>
+      <td><button (click)="participateConvention(convention.id)">Participate</button></td>
+      <td><button (click)="reserveConvention(convention.id)">Reserve a seat</button></td>
+    </tr>
+  </tbody>
+</table>
+
+

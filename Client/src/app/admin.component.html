@@ -1,0 +1,49 @@
+
+<!--<form (ngSubmit)="onSubmit()" #conventionForm="ngForm">
+  <span>Vælg Marvel karakter: </span><select id="duration" name="duration" [(ngModel)]="selectedCharacter.value">
+    <option *ngFor="let duration of characters">
+      {{ duration.value }}
+    </option>
+  </select>
+
+  <p>Beskrivelse:</p>
+  <div *ngIf="!selectedCharacter.label">Ingen beskrivelse</div>
+  <div *ngIf="selectedCharacter.label">{{selectedCharacter.label}}</div>
+
+  <br />
+  <span>Vælg Speaker: </span><select id="duration" name="duration" [(ngModel)]="selectedSpeaker">
+    <option *ngFor="let duration of speakers" [ngValue]="duration">
+      {{ duration.label }}
+    </option>
+  </select>
+
+
+
+
+  <button type="submit">Create convention</button>
+</form>-->
+
+
+
+<form [formGroup]="conventionForm" (ngSubmit)="submit()">
+
+  Name: <input type="text" formControlName="name" id="name"/><br/>
+  Number of seats: <input type="number" formControlName="numberOfSeats" id="numberOfSeats"/>
+  <br/>
+    <select formControlName="speaker">
+      <option [ngValue]="null" disabled>Select Speaker</option>
+      <option *ngFor="let speaker of speakers" [ngValue]="speaker.id">{{speaker.name}}</option>
+    </select>
+    <br/>
+    <select formControlName="character" (change)='onOptionsSelected()'>
+      <option *ngFor="let character of characters" [ngValue]="character">{{character.name}}</option>
+    </select>
+
+    <div>
+      <p>Description</p>
+      {{description}}
+    </div>
+    <button type="submit">Submit</button>
+ 
+</form>
+

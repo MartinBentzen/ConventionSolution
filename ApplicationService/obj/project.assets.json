@@ -1,0 +1,142 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ApplicationService.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Domain.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ApplicationService.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ApplicationService.Interfaces.dll": {}
+        }
+      },
+      "Domain.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Domain.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.Model.dll": {}
+        }
+      },
+      "Domain.Repository.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Domain.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Domain.Repository.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.Repository.Interfaces.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ApplicationService.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../ApplicationService.Interfaces/ApplicationService.Interfaces.csproj",
+      "msbuildProject": "../ApplicationService.Interfaces/ApplicationService.Interfaces.csproj"
+    },
+    "Domain.Model/1.0.0": {
+      "type": "project",
+      "path": "../Domain.Model/Domain.Model.csproj",
+      "msbuildProject": "../Domain.Model/Domain.Model.csproj"
+    },
+    "Domain.Repository.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../Domain.Repository.Interfaces/Domain.Repository.Interfaces.csproj",
+      "msbuildProject": "../Domain.Repository.Interfaces/Domain.Repository.Interfaces.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "ApplicationService.Interfaces >= 1.0.0",
+      "Domain.Model >= 1.0.0",
+      "Domain.Repository.Interfaces >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\mnbn\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\mnbn\\source\\repos\\MarvelConvention\\ApplicationService\\ApplicationService.csproj",
+      "projectName": "ApplicationService",
+      "projectPath": "C:\\Users\\mnbn\\source\\repos\\MarvelConvention\\ApplicationService\\ApplicationService.csproj",
+      "packagesPath": "C:\\Users\\mnbn\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mnbn\\source\\repos\\MarvelConvention\\ApplicationService\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\mnbn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\notification": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/LBSTCustomerAPP/CustomerAPP/_packaging/COWIControlsLibrary/nuget/v3/index.json": {},
+        "https://pkgs.dev.azure.com/LBSTCustomerAPP/CustomerAPP/_packaging/CommonsFeed/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\mnbn\\source\\repos\\MarvelConvention\\ApplicationService.Interfaces\\ApplicationService.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\mnbn\\source\\repos\\MarvelConvention\\ApplicationService.Interfaces\\ApplicationService.Interfaces.csproj"
+            },
+            "C:\\Users\\mnbn\\source\\repos\\MarvelConvention\\Domain.Model\\Domain.Model.csproj": {
+              "projectPath": "C:\\Users\\mnbn\\source\\repos\\MarvelConvention\\Domain.Model\\Domain.Model.csproj"
+            },
+            "C:\\Users\\mnbn\\source\\repos\\MarvelConvention\\Domain.Repository.Interfaces\\Domain.Repository.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\mnbn\\source\\repos\\MarvelConvention\\Domain.Repository.Interfaces\\Domain.Repository.Interfaces.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

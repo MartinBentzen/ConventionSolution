@@ -1,0 +1,8 @@
+C:\Users\mnbn\source\repos\MarvelConvention\Domain.Model\bin\Debug\netcoreapp3.1\Domain.Model.deps.json
+C:\Users\mnbn\source\repos\MarvelConvention\Domain.Model\bin\Debug\netcoreapp3.1\Domain.Model.dll
+C:\Users\mnbn\source\repos\MarvelConvention\Domain.Model\bin\Debug\netcoreapp3.1\Domain.Model.pdb
+C:\Users\mnbn\source\repos\MarvelConvention\Domain.Model\obj\Debug\netcoreapp3.1\Domain.Model.AssemblyInfoInputs.cache
+C:\Users\mnbn\source\repos\MarvelConvention\Domain.Model\obj\Debug\netcoreapp3.1\Domain.Model.AssemblyInfo.cs
+C:\Users\mnbn\source\repos\MarvelConvention\Domain.Model\obj\Debug\netcoreapp3.1\Domain.Model.dll
+C:\Users\mnbn\source\repos\MarvelConvention\Domain.Model\obj\Debug\netcoreapp3.1\Domain.Model.pdb
+C:\Users\mnbn\source\repos\MarvelConvention\Domain.Model\obj\Debug\netcoreapp3.1\Domain.Model.csprojAssemblyReference.cache
